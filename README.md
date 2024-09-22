@@ -1,7 +1,8 @@
 # glTFast with script exporting
 ## What's different?
-This version of glTFast based on the 6.8.0 release. The only difference is SerializeMonoBehaviours method in class GameObjectExport. It is added to serialize all MonoBehaviours and their serialized properties data to "extras" token of each node.
-Example gltf output: 
+This version of glTFast based on the 6.8.0 release. The only difference is SerializeMonoBehaviours method in class GameObjectExport. It is added to serialize all MonoBehaviours and their serialized properties data to "extras" token of each node.  
+  
+Example gltf output:   
 {"name":"Doc house","children":[80],"translation":[-9.05,8.418393,-45.84],"rotation":[-9.66888E-08,0.09672506,1.15608669E-08,0.995311141],"scale":[0.563429832,0.945775747,1.39120018],"extras":[
   {
     "TypeName": "InteractableObject",
@@ -13,7 +14,8 @@ Example gltf output:
     "npc": null,
     "player": null
   }
-]}
+]}  
+  
 For additional information please refer to original repo: https://github.com/atteneder/glTFast
 ## License
 
